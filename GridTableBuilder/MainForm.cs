@@ -117,7 +117,7 @@ namespace GridTableBuilder
         {
             var dlg = new OpenFileDialog
             {
-                Filter = @"Graphics files (*.png;*.jpg;*.bmp;*.gif)|*.png;*.jpg;*.bmp;*.gif"
+                Filter = @"图形文件 (*.png;*.jpg;*.bmp;*.gif)|*.png;*.jpg;*.bmp;*.gif"
             };
             if (dlg.ShowDialog() != DialogResult.OK) return;
             pnDrawGrid.LoadTranslucent(dlg.FileName);
